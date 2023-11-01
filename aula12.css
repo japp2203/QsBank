@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*estilização do header*/
+header {
+    background-color: #2A4596;
+    /*cor de fundo do header */
+    padding: 0rem;
+    /*ajustamos o tamanho do prencimento de header*/
+    /*adapta site a varios tipos de telas, a seguir*/
+}
+
+.QSmenu-header {
+    /*Aqui chamamos nossa class que armazena as listas*/
+    display: flex;
+    /*usamos para jogar itens lado a lado */
+    justify-content: space-evenly;
+    /*alinha listas deixando espaço entre elas*/
+    flex-wrap: wrap;
+    /*quebra conteudo para adaptar em telas menores*/
+}
+
+.QSmenu-header>li>a {
+    color: rgb(192, 203, 252);
+    /*color da letra*/
+    text-decoration: none;
+    /*tira formatação de link (sublinhado)*/
+    font-size: 25px;
+    /*tamanho da letra*/
+    /* margin-left: 7rem; */
+    /* margin-bottom: 70rem; */
+}
+
+.QSmenu-header>li>a:hover {
+    /*troca a cor da letra ao passar mouse por acima*/
+    color: rgba(55, 141, 16, 0.986);
+    /* font-size: 20px; aumenta tamanho ao passar mouse */
+    transition: 0.8s;
+    /*a mudança de tamanho es mais sutil, pode funcionar com imagens*/
+}
+
+.QSmenu-header>li>img {
+    /*chamamos nossa img para estilizar*/
+    width: 18vw;
+    /*Largura da imagen usando viewport*/
+    height: 30vh;
+    /*altura da imagen usando viewport*/
+}
+
+.line2 {
+    /*Aqui chamamos nossa tag linha 2*/
+    /* largura da linha*/
+    padding: 0, 75px
+}
+
+#QSsessao {
+    /*chamo com # por der um id*/
+    padding: 6rem;
+    /*1 equivale a 16px*/
+    /* padding: 1em; 1 equivale a 8px */
+    /* background-color: rgb(226, 169, 226); */
+    /*função gradiente, */
+    background: linear-gradient(360deg, #cdc0cf 17%, #2A4596 100%);
+}
+
+#QSsessao>h1 {
+    /*alterando nosso titulo*/
+    font-size: 80px;
+    color: #ffffff;
+    margin-left: 55rem;
+}
+
+#QSsessao>img {
+    width: 11rem;
+    height: 10rem;
+    margin-bottom: -10rem;
+    border-radius: 50%;
+    margin-left: 5rem;
+    }
+
+#QSsessao>p {
+    margin-top: 8rem;
+    font-size: 40px;
+    color: #2A4596
+}
+
+#QSsessao>button {
+    padding: 20px;
+    border-radius: 50px;
+    width: 20rem;
+    color: #ffffff;
+    background-color: #2A4596;
+    border-color: #ffffff;
+    margin-top: 3rem;
+    margin-left: 50 rem;
+    border-width: 2px;
+    /*Margem em volta do bitton*/
+    font-size: 15px;
+    /*Tamanho da letra dentro do button*/
+}
+
+#QSsessao>button:hover {
+    /*Efeito ao pasar o cursor*/
+    background-color: rgba(55, 141, 16, 0.986);
+    /*Atributos a cor que ficara*/
+    color: white;
+    /*Cor da letra que irá se tornar ao passar o cursor*/
+    border-color: white;
+    /*Cor da borda ao passar o cursor*/
+    transition: 0.8s;
+    /*tempo que demora a transição*/
+}
+
+#app {
+    /* background: linear-gradient(180deg, #cdc0cf 17%, #2A4596 100%); */
+    /* cor gradiente no fundo da class app */
+    display: flex;
+    /*situa lado a lado os elementos da div*/
+    flex-wrap: wrap;
+    /*para adaptar site a todo tipo de telas (responsiva)*/
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgb(5, 39, 101, 0.745)100%), url(FGTS-Digital.jpg);
+    /*coloca filtro [cor em degrade] na imagen fixa*/
+    background-position: center;
+    /*posicionar imagem para depois aplicar os filtros*/
+    background-attachment: fixed;
+    /*fixa imagen de fundo*/
+    background-size: 100%;
+    height: 30rem;
+    /*faz quase o mesmo que padding*/
+    align-items: center;
+    /* height: 50rem; */
+    /*faz quase o mesmo que padding*/
+}
+
+#app>div>button {
+    padding: 20px;
+    /* preenchimento de nosos botton*/
+    border-radius: 50px;
+    /*Arredondamento das bordas*/
+    width: 20rem;
+    /*Ajustamos a largura do button*/
+    background-color: #2A4596;
+    /*cor de fundo do button  */
+    color: #ffffff;
+    /*Cor da letra*/
+    border-color: #ffffff;
+    /*Cor da borda do button*/
+    border-width: 2px;
+    font-size: 15px;
+    /*Tamanho da letra que esta dentro do button*/
+    margin-left: 10rem;
+    margin-top: 2rem;
+    /*distancia da margen superior*/
+}
+
+#app>div>p {
+    font-size: 30px;
+    margin-left: 10rem;
+    color: rgb(211, 195, 195);
+}
+
+#app>div>button:hover {
+    /*Efeito ao pasar o cursor*/
+    background-color: rgba(55, 141, 16, 0.986);
+    /*Atributos a cor que ficara*/
+    color: white;
+    /*Cor da letra que irá se tornar ao passar o cursor*/
+    border-color: white;
+    /*Cor da borda ao passar o cursor*/
+    transition: 0.6s;
+    /*tempo que demora a transição*/
+}
+
+#container {
+    background: linear-gradient(180deg, #cdc0cf 17%, #2A4596 100%);
+    /* background-color: rgb(190, 186, 186); */
+    flex-wrap: wrap;
+    /*Adaptando a sessaõ para quebrar em telas menores*/
+}
+
+#container>h2 {
+    /*chamamos nosso h2 para alteração*/
+    font-size: 60px;
+    /*Atribuimos um tamanho a letra*/
+    /* margin-top: -10rem; */
+    /*Espaçamento superior usando (-)*/
+    color: rgba(8, 11, 197, 0.747);
+    text-align: center;
+    /*alinhamento do texto ao centro*/
+}
+
+#container>p {
+    /*Aqui chamamos nossa tap p*/
+    font-size: 25px;
+    /*tamanho da letra*/
+    margin-top: 30px;
+    /*espaçamaneto superior*/
+    color: rgb(56, 62, 90);
+    /*cor da letra*/
+    text-align: justify;
+    /*tornando o texto justificavel*/
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+#container>nav {
+    display: flex;
+}
+
+#container>nav>div>img {
+    /*Chamando nossa img da section para estilizacção*/
+    width: 10vw;
+    /*largura da imagem */
+    margin-top: 1rem;
+    /* distancia da margen superior */
+    margin-left: 10rem;
+    /*distancia da margen ezquerda */
+}
+
+#container>nav>div>p {
+    /*Aqui chamamos nossa tap p*/
+    font-size: 40px;
+    /*tamanho da letra*/
+    margin-top: 4.5rem;
+    /*espaçamaneto superior*/
+    margin-left: 10rem;
+    /* espaçamento esquerdo */
+    color: rgb(255, 255, 255);
+    /*cor da letra*/
+}
+
+#container>.text1 {
+    /*Chamamos a class text1 que esta dentro da id container para estilização*/
+    text-align: center;
+    /*juntifica alinhamento da tag p*/
+}
+
+#container>button {
+    padding: 20px;
+    /* preenchimento de nosos botton*/
+    border-radius: 50px;
+    /*Arredondamento das bordas*/
+    width: 20rem;
+    /*Ajustamos a largura do button*/
+    color: #ffffff;
+    /*Cor da letra*/
+    background-color: #2A4596;
+    /*Cor da borda do button*/
+    margin: 50px;
+    /*Alteração das margens em volta do button*/
+    border-width: 2px;
+    /*Margem em volta do bitton*/
+    font-size: 15px;
+    /*Tamanho da letra quie esta dentro do button*/
+    border-color: #ffffff;
+    /*Cor da borda do button*/
+}
+
+#container>button:hover {
+    /*Efeito ao pasar o cursor*/
+    background-color: rgba(55, 141, 16, 0.986);
+    /*Atributos a cor que ficara*/
+    color: white;
+    /*Cor da letra que irá se tornar ao passar o cursor*/
+    border-color: white;
+    /*Cor da borda ao passar o cursor*/
+    transition: 0.6s;
+    /*tempo que demora a transição*/
+}
+
+.line {
+    /*Aqui chamamos nossa linha*/
+    padding: 0.75px;
+}
+
+#container-cofre {
+    /*coloca filtro [cor em degrade] na imagen fixa*/
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgb(5, 39, 101, 0.745)100%), url(seguridad-bancaria.jpg);
+    /* padding: 80px; */
+    /*posicionar imagem para depois aplicar os filtros*/
+    background-position: center;
+    /*fixa imagen de fundo*/
+    background-attachment: fixed;
+    height: 30rem;
+    /*faz quase o mesmo que padding*/
+    display: flex;
+    /*coloca lado a lado as tag div*/
+    align-items: center;
+    flex-wrap: wrap;
+    /*adaptação [quebra] para telas menores*/
+
+}
+
+#container-cofre>div>img {
+    /*chamamos nossa img para estilizar*/
+    width: 21vw;
+    /*vw = vioport widght*/
+    /*altura da imagen usando viewport*/
+    margin-top: 4rem;
+    /*Espaçamento de margin superior*/
+    margin-left: 9rem;
+    flex-wrap: wrap;
+}
+
+#container-cofre>div>h2 {
+    color: white;
+    /*da cor na letra do h2*/
+    font-size: 40px;
+    /*aumenta o tamanho da letra de h2*/
+    margin-left: 9rem;
+    /*desloca h2 para a direita*/
+}
+
+#container-cofre>div>p {
+    color: white;
+    /*da cor na letra da tag p*/
+    font-size: 30px;
+    /*aumenta o tamanho da letra do paragrafo*/
+    margin-left: 9rem;
+    /*desloca partagrafo para a direita*/
+    margin-top: 3rem;
+    /*deixa espaço depois da tag h2 na parte superior*/
+
+
+}
+
+footer {
+    padding: 10vh;
+    /*preenchimento do rodape ou footer*/
+    background-color: #021449;
+    /*cor de fundo*/
+    text-align: left;
+    /*Alinhando o texto ao centro*/
+}
+
+footer>img {
+    height: 14rem;
+    /*alturta da imagen*/
+    margin-bottom: 4rem;
+    margin-left: 65rem;
+}
+
+.item-footer {
+    color: #474d4d;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.item-footer>a {
+    color: #474d4d;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.item-footer>a:hover {
+    color: rgba(55, 141, 16, 0.986);
+    transition: 0.8s;
+
+}
