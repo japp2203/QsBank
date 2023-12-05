@@ -5,7 +5,7 @@
 
 
 
- <a href=" file:///C:/xampp/htdocs/Padaria/QsBank/aula12.html">
+ <a href="file:///C:/xampp/htdocs/Padaria/QsBank/aula12.html">
   Accese seu site de QsbANK
 
  </a>
