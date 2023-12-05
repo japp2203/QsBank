@@ -1,5 +1,5 @@
-# QsBank
- QsBank |banco digital
+
+QsBank |banco digital
 
  Aqui voce coloca o objetivo do site
 
