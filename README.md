@@ -9,7 +9,7 @@ QsBank |banco digital
 https://japp2203.github.io/QsBank/aula12
 
 		Accese seu site de QsbANK			
-</a>;
+</a>
 
 
-<img src="frame.png" alt="CÓDIGO QR DO site Qs Bank">;
+<img src="frame.png" alt="CÓDIGO QR DO site Qs Bank">
